@@ -22,6 +22,7 @@
     [self.view addSubview:self.tableView];
     self.datasource = [NSArray arrayWithObjects:
                        @{@"观察者模式" : @"ObserverPatternViewController"},
+                       @{@"备忘录模式" : @"MementoPatternViewController"},
                        nil];
 }
 

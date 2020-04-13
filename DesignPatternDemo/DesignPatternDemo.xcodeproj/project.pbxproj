@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C81C906724444279003560CF /* MementoPatternViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C81C906524444279003560CF /* MementoPatternViewController.m */; };
+		C81C906824444279003560CF /* MementoPatternViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C81C906624444279003560CF /* MementoPatternViewController.xib */; };
+		C81C906B2444455E003560CF /* Memento.m in Sources */ = {isa = PBXBuildFile; fileRef = C81C906A2444455E003560CF /* Memento.m */; };
+		C81C906E244445AB003560CF /* Originator.m in Sources */ = {isa = PBXBuildFile; fileRef = C81C906D244445AB003560CF /* Originator.m */; };
+		C81C9074244446D1003560CF /* MementoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C81C9073244446D1003560CF /* MementoManager.m */; };
 		C8CB4E3D24440C980038A098 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C8CB4E3C24440C980038A098 /* AppDelegate.m */; };
 		C8CB4E4024440C980038A098 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C8CB4E3F24440C980038A098 /* SceneDelegate.m */; };
 		C8CB4E4324440C980038A098 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8CB4E4224440C980038A098 /* ViewController.m */; };
@@ -43,6 +48,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C81C906424444279003560CF /* MementoPatternViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MementoPatternViewController.h; sourceTree = "<group>"; };
+		C81C906524444279003560CF /* MementoPatternViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MementoPatternViewController.m; sourceTree = "<group>"; };
+		C81C906624444279003560CF /* MementoPatternViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MementoPatternViewController.xib; sourceTree = "<group>"; };
+		C81C90692444455E003560CF /* Memento.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Memento.h; sourceTree = "<group>"; };
+		C81C906A2444455E003560CF /* Memento.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Memento.m; sourceTree = "<group>"; };
+		C81C906C244445AB003560CF /* Originator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Originator.h; sourceTree = "<group>"; };
+		C81C906D244445AB003560CF /* Originator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Originator.m; sourceTree = "<group>"; };
+		C81C9072244446D1003560CF /* MementoManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MementoManager.h; sourceTree = "<group>"; };
+		C81C9073244446D1003560CF /* MementoManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MementoManager.m; sourceTree = "<group>"; };
 		C8CB4E3824440C980038A098 /* DesignPatternDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignPatternDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8CB4E3B24440C980038A098 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C8CB4E3C24440C980038A098 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -102,6 +116,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C81C906324444248003560CF /* 备忘录模式 */ = {
+			isa = PBXGroup;
+			children = (
+				C81C906424444279003560CF /* MementoPatternViewController.h */,
+				C81C906524444279003560CF /* MementoPatternViewController.m */,
+				C81C906624444279003560CF /* MementoPatternViewController.xib */,
+				C81C90692444455E003560CF /* Memento.h */,
+				C81C906A2444455E003560CF /* Memento.m */,
+				C81C906C244445AB003560CF /* Originator.h */,
+				C81C906D244445AB003560CF /* Originator.m */,
+				C81C9072244446D1003560CF /* MementoManager.h */,
+				C81C9073244446D1003560CF /* MementoManager.m */,
+			);
+			path = "备忘录模式";
+			sourceTree = "<group>";
+		};
 		C8CB4E2F24440C980038A098 = {
 			isa = PBXGroup;
 			children = (
@@ -125,6 +155,7 @@
 		C8CB4E3A24440C980038A098 /* DesignPatternDemo */ = {
 			isa = PBXGroup;
 			children = (
+				C81C906324444248003560CF /* 备忘录模式 */,
 				C8CB4E75244410100038A098 /* 观察者模式 */,
 				C8CB4E3B24440C980038A098 /* AppDelegate.h */,
 				C8CB4E3C24440C980038A098 /* AppDelegate.m */,
@@ -286,6 +317,7 @@
 				C8CB4E4B24440CA00038A098 /* LaunchScreen.storyboard in Resources */,
 				C8CB4E7424440DFD0038A098 /* ObserverPatternViewController.xib in Resources */,
 				C8CB4E4824440CA00038A098 /* Assets.xcassets in Resources */,
+				C81C906824444279003560CF /* MementoPatternViewController.xib in Resources */,
 				C8CB4E4624440C980038A098 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -312,13 +344,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				C8CB4E84244413770038A098 /* PassengerC.m in Sources */,
+				C81C906B2444455E003560CF /* Memento.m in Sources */,
 				C8CB4E81244413690038A098 /* PassengerB.m in Sources */,
+				C81C906E244445AB003560CF /* Originator.m in Sources */,
 				C8CB4E7E2444135C0038A098 /* PassengerA.m in Sources */,
 				C8CB4E78244410B80038A098 /* AirLine.m in Sources */,
 				C8CB4E4324440C980038A098 /* ViewController.m in Sources */,
 				C8CB4E3D24440C980038A098 /* AppDelegate.m in Sources */,
 				C8CB4E7B244410DD0038A098 /* Passengers.m in Sources */,
 				C8CB4E7324440DFD0038A098 /* ObserverPatternViewController.m in Sources */,
+				C81C906724444279003560CF /* MementoPatternViewController.m in Sources */,
+				C81C9074244446D1003560CF /* MementoManager.m in Sources */,
 				C8CB4E4E24440CA00038A098 /* main.m in Sources */,
 				C8CB4E4024440C980038A098 /* SceneDelegate.m in Sources */,
 			);
